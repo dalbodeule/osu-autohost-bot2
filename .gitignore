@@ -13,3 +13,8 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+# library
+
+lib/bancho-api_b1.jar
+lib/bancho-client-0.0.1-SNAPSHOT.jar
