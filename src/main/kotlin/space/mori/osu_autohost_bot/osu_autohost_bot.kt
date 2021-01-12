@@ -6,7 +6,9 @@ import lt.ekgame.bancho.client.BanchoClient
 import org.apache.logging.log4j.kotlin.logger
 
 fun main() {
-    val bancho = BanchoClient("dalbodeule", "**jj246800**", true, false)
+    val config = Configure()
+
+    val bancho = BanchoClient(config.osu_username, config.osu_password, true, false)
     val logger = logger("OSU")
 
     try {
