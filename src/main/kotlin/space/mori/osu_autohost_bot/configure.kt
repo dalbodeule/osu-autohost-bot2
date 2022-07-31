@@ -10,6 +10,6 @@ data class Configure (
     val osu_password: String = dotenv["OSU_PASSWORD"],
 
     val discord_apikey: String = dotenv["DISCORD_APIKEY"],
-    val discord_guildId: Number = java.lang.Long.valueOf(dotenv["DISCORD_GUILDID"]),
+    val discord_guildId: String = dotenv["DISCORD_GUILDID"],
     val discord_commandId: String = dotenv["DISCORD_COMMAND_ID"]
 )
